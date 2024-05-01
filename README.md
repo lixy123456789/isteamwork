@@ -1,82 +1,77 @@
-# Smart Loading: Transforming Container Logistics with AI
+### Smart Loading Installation and Usage Guide
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/python-3.7%2B-blue)](https://www.python.org/downloads/)
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/smart-loading)](https://github.com/yourusername/smart-loading/issues)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/smart-loading)](https://github.com/yourusername/smart-loading/stargazers)
+Welcome to the Smart Loading installation guide. This guide provides detailed instructions on setting up the Smart Loading application, which utilizes both PHP and Python to optimize container loading processes.
 
-Welcome to Smart Loading, an innovative project that revolutionizes container logistics using cutting-edge artificial intelligence techniques. By leveraging the power of genetic algorithms, Smart Loading optimizes the 3D packing process, enabling efficient and intelligent container loading solutions.
+#### Prerequisites
+Before beginning the installation, ensure you have the following installed on your system:
+- **Git**: Version control system to clone the repository.
+- **PHP**: Version 7.4 or higher.
+- **Python**: Version 3.8 or higher.
+- **XAMPP** or any similar server software that supports PHP.
 
-## Table of Contents
+#### Installation Steps
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+**Step 1: Cloning the Repository**
+To get a copy of the Smart Loading project on your local machine, open a terminal or command prompt and run the following command:
 
-## Introduction
+```sh
+git clone https://github.com/yancey7521/isteamwork.git
+```
 
-In today's fast-paced global supply chain, optimizing container loading is crucial for reducing costs, minimizing waste, and enhancing operational efficiency. Smart Loading addresses this challenge by harnessing the potential of genetic algorithms to find the optimal arrangement of packages within a container, maximizing space utilization and ensuring a balanced distribution of weight.
+This command clones the repository and creates a directory named `smart-loading` in your current working directory.
 
-## Features
+**Step 2: Navigating to the Project Directory**
+Change your directory to the newly created project directory:
 
-- 🧬 Genetic Algorithm: Smart Loading employs a powerful genetic algorithm to explore a vast solution space and find the best packing configuration.
-- 📦 3D Packing Optimization: The algorithm takes into account the dimensions and weights of packages, ensuring efficient utilization of container space.
-- ⚖️ Weight Distribution: Smart Loading aims to evenly distribute the weight across the container, promoting stability and reducing the risk of damage during transportation.
-- 🌐 Cross-Platform Compatibility: The project is implemented in Python, making it compatible with various operating systems and easy to integrate into existing logistics systems.
-- 📊 Data Visualization: Smart Loading provides intuitive visualizations of the packing results, allowing users to understand and analyze the optimized container configurations.
+```sh
+cd smart-loading
+```
 
-## Installation
+**Step 3: Setting Up the Server Environment**
+1. Install XAMPP or another PHP server environment.
+2. Ensure that the PHP and Apache modules are running.
+3. Copy the `smart-loading` directory into the `htdocs` folder of your XAMPP installation.
 
-To get started with Smart Loading, follow these simple steps:
+**Step 4: Starting the Servers**
 
-1. Clone the repository:
+- **PHP Server:**
+  - Access `project_irs.php` through your web browser by navigating to:
+    ```plaintext
+    http://localhost/smart-loading/project_irs.php
+    ```
+  - This page is used for managing item data and generating container loading plans.
 
-   ```bash
-   git clone https://github.com/yourusername/smart-loading.git
-   ```
+- **Python Flask Server:**
+  - Open a command prompt or terminal in the project directory.
+  - Run the following command to start the Flask server:
+    ```sh
+    python app.py
+    ```
+  - Ensure the Flask application is running to handle backend requests made by `project_irs.php`.
 
-2. Navigate to the project directory:
+#### Usage Guide
+After setting up the application, follow these steps to use Smart Loading:
 
-   ```bash
-   cd smart-loading
-   ```
+1. **Adding Items:**
+   - Go to `http://localhost/smart-loading/project_irs.php` in your web browser.
+   - Use the provided form to input details of the items to be loaded into containers (length, width, height, weight, color, quantity).
+   - Click "Add Item" to store the item in the session. Items will be displayed in a table with an option to delete any item.
 
-3. Install the required dependencies:
+2. **Generating Container Loading Plan:**
+   - After adding all necessary items, click "Generate Container Loading Plan."
+   - This sends the item data as a JSON payload via a POST request to the Flask server (`app.py`), which processes the request and returns an optimized loading configuration.
+   - The PHP script then visualizes this configuration on the webpage, displaying how items are arranged within the container.
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. You're all set! Run the main script to start optimizing your container loading:
-
-   ```bash
-   python main.py
-   ```
-
-## Usage
-
-Smart Loading provides a user-friendly interface for optimizing container loading. Simply provide the necessary input data, such as package dimensions, weights, and container specifications, and let the algorithm work its magic. The optimized packing configuration will be displayed, along with detailed statistics and visualizations.
-
-For more detailed usage instructions and examples, please refer to the [User Guide](docs/user_guide.md).
-
-## Contributing
-
-We welcome contributions from the community to enhance Smart Loading and make it even more powerful. If you have any ideas, suggestions, or bug reports, please open an issue on the [GitHub repository](https://github.com/yourusername/smart-loading/issues). If you'd like to contribute code, please follow the guidelines outlined in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## License
-
-Smart Loading is released under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code as per the terms of the license.
-
-## Contact
-
+Contact
 If you have any questions, feedback, or collaboration opportunities, we'd love to hear from you. Feel free to reach out to the project maintainers:
 
-- Li Xinye: A0230455M
-- Jantje Jupieter Tanuwidjaja: A0292396N
-- Suhardiman Agung: A0291911E
-
+Li Xinye: A0230455M
+Jantje Jupieter Tanuwidjaja: A0292396N
+Suhardiman Agung: A0291911E
 Let's revolutionize container logistics together with Smart Loading! 🚢📦🌟
+
+Support
+If you encounter any issues or have questions regarding the installation or usage of Smart Loading, please contact the project maintainers or open an issue on this GitHub repository.
+
+Thank You
+Thank you for choosing Smart Loading. We hope this guide helps you set up and enjoy using the system to its full potential. Your feedback and contributions are welcome!
