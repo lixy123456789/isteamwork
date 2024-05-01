@@ -65,9 +65,9 @@ After setting up the application, follow these steps to use Smart Loading:
 #### Contact
 If you have any questions, feedback, or collaboration opportunities, we'd love to hear from you. Feel free to reach out to the project maintainers:
 
-Li Xinye: A0230455M
-Jantje Jupieter Tanuwidjaja: A0292396N
-Suhardiman Agung: A0291911E
+   - Li Xinye: A0230455M
+   - Jantje Jupieter Tanuwidjaja: A0292396N
+   - Suhardiman Agung: A0291911E
 Let's revolutionize container logistics together with Smart Loading! 🚢📦🌟
 
 #### Support
