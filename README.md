@@ -62,7 +62,7 @@ After setting up the application, follow these steps to use Smart Loading:
    - This sends the item data as a JSON payload via a POST request to the Flask server (`app.py`), which processes the request and returns an optimized loading configuration.
    - The PHP script then visualizes this configuration on the webpage, displaying how items are arranged within the container.
 
-Contact
+#### Contact
 If you have any questions, feedback, or collaboration opportunities, we'd love to hear from you. Feel free to reach out to the project maintainers:
 
 Li Xinye: A0230455M
@@ -70,8 +70,8 @@ Jantje Jupieter Tanuwidjaja: A0292396N
 Suhardiman Agung: A0291911E
 Let's revolutionize container logistics together with Smart Loading! 🚢📦🌟
 
-Support
+#### Support
 If you encounter any issues or have questions regarding the installation or usage of Smart Loading, please contact the project maintainers or open an issue on this GitHub repository.
 
-Thank You
+#### Thank You
 Thank you for choosing Smart Loading. We hope this guide helps you set up and enjoy using the system to its full potential. Your feedback and contributions are welcome!
