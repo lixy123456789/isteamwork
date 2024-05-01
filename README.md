@@ -17,7 +17,7 @@ Before beginning the installation, ensure you have the following installed on yo
 To get a copy of the Smart Loading project on your local machine, open a terminal or command prompt and run the following command:
 
 ```sh
-git clone https://github.com/yancey7521/isteamwork.git
+git clone https://github.com/lixy123456789/isteamwork.git
 ```
 
 This command clones the repository and creates a directory named `smart-loading` in your current working directory.
