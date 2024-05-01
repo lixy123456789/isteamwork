@@ -13,6 +13,7 @@ Before beginning the installation, ensure you have the following installed on yo
 #### Installation Steps
 
 **Step 1: Cloning the Repository**
+
 To get a copy of the Smart Loading project on your local machine, open a terminal or command prompt and run the following command:
 
 ```sh
@@ -44,6 +45,7 @@ cd smart-loading
   - Ensure the Flask application is running to handle backend requests made by `project_irs.php`.
 
 **Step 5: Running the Application**
+
 Access the application through your web browser by navigating to:
 `http://localhost/smart-loading/project_irs.php`
 This URL will direct you to the main interface of Smart Loading, running from your local server.
@@ -68,6 +70,7 @@ If you have any questions, feedback, or collaboration opportunities, we'd love t
    - Li Xinye: A0230455M
    - Jantje Jupieter Tanuwidjaja: A0292396N
    - Suhardiman Agung: A0291911E
+  
 Let's revolutionize container logistics together with Smart Loading! 🚢📦🌟
 
 #### Support
