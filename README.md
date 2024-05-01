@@ -7,7 +7,7 @@ Before beginning the installation, ensure you have the following installed on yo
 - **Git**: Version control system to clone the repository.
 - **PHP**: Version 7.4 or higher.
 - **Python**: Version 3.8 or higher.
-- **Flask: Python framework required to run the backend. Install using pip install flask.
+- **Flask**: Python framework required to run the backend. Install using pip install flask.
 - **XAMPP** or any similar server software that supports PHP.
 
 #### Installation Steps
@@ -35,13 +35,6 @@ cd smart-loading
 
 **Step 4: Starting the Servers**
 
-- **PHP Server:**
-  - Access `project_irs.php` through your web browser by navigating to:
-    ```plaintext
-    http://localhost/smart-loading/project_irs.php
-    ```
-  - This page is used for managing item data and generating container loading plans.
-
 - **Python Flask Server:**
   - Open a command prompt or terminal in the project directory.
   - Run the following command to start the Flask server:
@@ -49,6 +42,12 @@ cd smart-loading
     python app.py
     ```
   - Ensure the Flask application is running to handle backend requests made by `project_irs.php`.
+
+**Step 5: Running the Application**
+Access the application through your web browser by navigating to:
+`http://localhost/smart-loading/project_irs.php`
+This URL will direct you to the main interface of Smart Loading, running from your local server.
+
 
 #### Usage Guide
 After setting up the application, follow these steps to use Smart Loading:
