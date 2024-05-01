@@ -1,12 +1,13 @@
 ### Smart Loading Installation and Usage Guide
 
-Welcome to the Smart Loading installation guide. This guide provides detailed instructions on setting up the Smart Loading application, which utilizes both PHP and Python to optimize container loading processes.
+Welcome to the Smart Loading GitHub repository! This application leverages PHP and Python to optimize container loading processes. It integrates a PHP-based web interface with a Python Flask backend to calculate and display optimal loading strategies.
 
 #### Prerequisites
 Before beginning the installation, ensure you have the following installed on your system:
 - **Git**: Version control system to clone the repository.
 - **PHP**: Version 7.4 or higher.
 - **Python**: Version 3.8 or higher.
+- **Flask: Python framework required to run the backend. Install using pip install flask.
 - **XAMPP** or any similar server software that supports PHP.
 
 #### Installation Steps
